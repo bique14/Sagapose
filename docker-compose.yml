@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  demo-web:
+    build: .
+    image: demo-web
+    container_name: demo-web
+    command: npm start
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/src/app

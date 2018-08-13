@@ -1,0 +1,32 @@
+{
+  "states": {
+    "button": {
+      "name": "button",
+      "flowType": "ButtonState",
+      "actions": {
+        "increaseValue": {
+          "name": "increaseValue",
+          "flowType": "IncreaseValue",
+          "id": "button/INCREASE_VALUE",
+          "reducer": true
+        },
+        "decreaseValue": {
+          "name": "decreaseValue",
+          "flowType": "DecreaseValue",
+          "id": "button/DECREASE_VALUE",
+          "reducer": true
+        }
+      },
+      "channels": {},
+      "effects": {
+        "increament": {
+          "name": "increament"
+        },
+        "decrement": {
+          "name": "decrement"
+        }
+      },
+      "reducers": {}
+    }
+  }
+}
